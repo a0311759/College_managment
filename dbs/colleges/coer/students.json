@@ -1,0 +1,25 @@
+
+[
+    {
+        "id": "T1",
+        "password": "$2y$12$LnNI2pPjCl8tRyZEWsIF7.ElOl2pOHmfuwjKvsxntsHAV3u9YUKU2",
+        "role": "student",
+        "college": "coer",
+        "approved": true,
+        "created_at": "2025-11-14 04:14:42",
+        "name": "Johnson ",
+        "father_name": "Johnson",
+        "mother_name": "Johanna",
+        "dob": "2025-11-05",
+        "address": "Uttrakhand",
+        "course": "M.Tech",
+        "current_semester": "5"
+    },
+    {
+        "id": "T5",
+        "password": "$2y$12$SNRsYUSx5VROLyaYWkQcpOsad5\/ShLgmWoU9VwdYZxUj\/laFmXIKO",
+        "role": "student",
+        "college": "coer",
+        "approved": false,
+        "created_at": "2025-11-14 07:33:58"
+    }
