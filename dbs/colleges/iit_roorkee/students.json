@@ -1,0 +1,18 @@
+
+[
+    {
+        "id": "Iit1",
+        "password": "$2y$12$8d.lx.g0br75NakOVQXkaeVhNj2NhtXmGji71eWoJIIxxFbP08NUi",
+        "role": "student",
+        "college": "iit_roorkee",
+        "approved": false,
+        "created_at": "2025-11-14 09:51:03"
+    },
+    {
+        "id": "T5",
+        "password": "$2y$12$jxpvuQ.ws75pE4qaQF9lyelpNew0cQlYM0WJsR\/ZscNoQk8amWSgW",
+        "role": "student",
+        "college": "iit_roorkee",
+        "approved": false,
+        "created_at": "2025-11-14 15:39:00"
+    }
