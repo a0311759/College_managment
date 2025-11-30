@@ -1,0 +1,140 @@
+/* General page styling */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Back button */
+.back-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #2980b9;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+.back-btn:hover {
+    background: #1f6391;
+}
+
+/* Filter form */
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-form input[type=text],
+.filter-form select,
+.filter-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.filter-form button {
+    background: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.filter-form button:hover {
+    background: #1f6391;
+}
+
+/* Table styling */
+.teacher-table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.teacher-table th,
+.teacher-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.teacher-table th {
+    background: #2980b9;
+    color: #fff;
+    font-weight: 600;
+}
+
+.teacher-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.teacher-table tr:hover {
+    background: #eef6fc;
+}
+
+/* Action button */
+.button {
+    background: #27ae60;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background: #1e874b;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .filter-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .filter-form input[type=text],
+    .filter-form select,
+    .filter-form button {
+        width: 100%;
+    }
+    .teacher-table, .teacher-table thead, .teacher-table tbody, .teacher-table th, .teacher-table td, .teacher-table tr {
+        display: block;
+    }
+    .teacher-table tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 10px;
+        background: #fff;
+    }
+    .teacher-table th {
+        display: none;
+    }
+    .teacher-table td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 10px;
+        border: none;
+    }
+    .teacher-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: #555;
+    }
+}
