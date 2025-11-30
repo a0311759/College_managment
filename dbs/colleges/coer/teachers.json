@@ -1,0 +1,26 @@
+
+[
+    {
+        "id": "T2",
+        "password": "$2y$12$rdUsXUm7dHNXvymofdHbbuHmzrWlywANi.aj31Ha9iQAMLo1j6DV2",
+        "role": "teacher",
+        "college": "coer",
+        "approved": true,
+        "created_at": "2025-11-14 07:57:06",
+        "courses": {
+            "M.Tech": [
+                "3",
+                "4"
+            ],
+            "B.Tech": [
+                "5",
+                "6"
+            ]
+        },
+        "name": "Suresh",
+        "father_name": "Ramesh",
+        "mother_name": "Johanna",
+        "dob": "2025-11-05",
+        "joining_date": "2025-11-07",
+        "address": "Uttrakhand"
+    }
