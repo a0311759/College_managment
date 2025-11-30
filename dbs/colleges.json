@@ -1,0 +1,21 @@
+
+[
+    {
+        "college": "coer",
+        "applicant": "Suneel",
+        "post": "Faculty advisor",
+        "phone": "1234",
+        "password": "$2y$12$PpRzkBDT5v.Lju.b8W8\/iOqwhKu91Vbgr3OXHtGuu0cfFo5Jb0rC2",
+        "approval": true,
+        "created_at": "2025-11-02 07:15:36"
+    },
+    {
+        "college": "IIT Roorkee",
+        "applicant": "Anant",
+        "post": "Faculty advisor",
+        "phone": "1234",
+        "password": "$2y$12$B2G7z6dcukKfPa1KfqMWc.2yYWVWbudG\/2ypgJQ29c4Atl4e9SaJ.",
+        "approval": true,
+        "created_at": "2025-11-14 09:48:58"
+    }
+]
